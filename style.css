@@ -12,6 +12,11 @@
     display: flex;
 }
 
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
 .col{
     display: flex;
     flex-direction: column;
@@ -45,6 +50,11 @@ header img{
 a{
     text-decoration: none;
     color: white;
+}
+
+footer{
+    height: 3rem;
+    padding:10px 0;
 }
 
 .header-link{
@@ -84,6 +94,69 @@ a{
 .blue-button{
     background-color: #3882F6;
     border: none;
+    border-radius: 5px;
+    color: white;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.random-info{
+    justify-content: space-around;
+    height: 400px;
+}
+
+.squares{
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.blue-square{
+    border: #3882F6 solid 3px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.square-text{
+    width: 150px;
+    text-align: center;
+}
+
+.inspire{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    height: 400px;
+}
+
+.quote{
+    width: 50vw;
+    padding: 60px;
+}
+
+.blue-bg{
+    background-color: #3882F6;
+}
+
+.action{
+    height: 400px;
+}
+
+.call-to-action{
+    padding: 20px;
+    width: 75vw;
+    height: 5rem;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.white-blue-button{
+    background-color: #3882F6;
+    border: 2px solid white;
     border-radius: 5px;
     color: white;
     width: 7rem;
