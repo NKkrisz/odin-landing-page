@@ -36,11 +36,11 @@
 }
 
 header{
-    justify-content: space-around;
+    justify-content: center;
+    gap: 47vw;
     color: white;
     height: 3.5rem;
     align-items: center;
-    padding: 5px;
 }
 
 header img{
@@ -69,7 +69,7 @@ footer{
 }
 
 .awesome-text{
-    width: 30vw;
+    width: 25vw;
 }
 
 .awesome-text h1{
@@ -83,8 +83,6 @@ footer{
 }
 
 .awesome img{
-    width: 400px;
-    height: 300px;
     background-color: rgba(200, 198, 198, 0.4);
     display: flex;
     justify-content: center;
@@ -99,7 +97,13 @@ footer{
     width: 7rem;
     font-size: 1rem;
     font-weight: bold;
-    padding: 5px;
+    padding: 8px;
+}
+
+.placeholder{
+    width: 35vw;
+    height: 30vh;
+    flex-shrink: 1;
 }
 
 .random-info{
@@ -120,8 +124,10 @@ footer{
 }
 
 .square-text{
-    width: 150px;
+    width: 200px;
     text-align: center;
+    color: #78808a;
+    margin-top: 10px;
 }
 
 .inspire{
@@ -136,6 +142,15 @@ footer{
 .quote{
     width: 50vw;
     padding: 60px;
+    text-align: justify;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 26px;
 }
 
 .blue-bg{
@@ -162,5 +177,5 @@ footer{
     width: 7rem;
     font-size: 1rem;
     font-weight: bold;
-    padding: 5px;
+    padding: 8px;
 }
